@@ -8,22 +8,28 @@ def tyre():
 
     tom.circle(25)
 
+
+def tyre():
+    tom.setheading(0)
+
+    tom.circle(20)
+
 def move(x,y):
     tom.penup()
     tom.goto(x,y)
     tom.pendown()
 
 def rear():
-    tom.right(32)
+    tom.right(30)
     tom.circle(100,-100)
     tom.right(25)
-    tom.circle(300,-100)
+    tom.circle(200,-100)
 
-    tom.right(50)
-    tom.circle(221,-20)
+    tom.right(52)
+    tom.circle(200,-100)
 
     tom.right(31)
-    tom.circle(-160,-10)
+    tom.circle(-120,-10)
 
     tom.left(31)
     tom.forward(20)
@@ -32,6 +38,15 @@ tyre()
 move(100,-100)
 tyre()
 move(-120,-110)
+tom.fd(200)
+
+move(-100,-20)
+rear()
+move(-100,201)
+tyre()
+move(100,-100)
+tyre()
+move(-120,-100)
 tom.fd(200)
 
 move(-100,-45)
@@ -69,10 +84,10 @@ tom.forward(110)
 tom.penup()
 
 tom.penup()
-tom.bk(200)
+tom.bk(100)
 tom.pd()
 tom.right(90)
-tom.forward(150)
+tom.forward(120)
 tom.bk(100)
 tom.right(90)
 tom.forward(40)
@@ -83,3 +98,4 @@ tom.forward(40)
 
 #done//
 turtle.done()
+
