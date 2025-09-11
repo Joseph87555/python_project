@@ -1,8 +1,7 @@
-=
-def tom():
-    tom=turtle
-    tom.colot("red")
-    tom.circle(25)
+import turtle 
+tom=turtle
+tom.colot("red")
+tom.circle(25)
 
 
 def tyre():
@@ -74,8 +73,8 @@ def spolier():
     tom.right(90)
     tom.forward(200)
     
-def window plannel():
-tom forward(100)
+def window():
+tom.forward(100)
 tom.right(90)
 tom.forward(20)
 tom.right(90)
@@ -89,12 +88,48 @@ tom.forward(100)
 
 
 def air vent():
-tom.right(100)
-tom.right(90)
-tom.forward(200)
-tom.right(90)
-tom.forward(100)
-tom.right(90)
-tom.forward(200)
+    tom.right(90)
+    tom.forward(100)
+    tom.right(45)
+    tom.forward(200)
+    tom.penup()
+    tom.right(90)
+    tom.forward(100)
+    tom.right(90)
+    tom.forward(200)
+    tom.right(45)
+    tom.forward(100)
+    tom.right(45)                                                                                                                                                                                                                    
+    tom.forward(100)
+
+ def door():
+    tom.right(180)
+    tom.forward(150)
+    tom.right(45)
+    tom.forward(200)
 
 
+def head and lights():
+     tom.circle(180,100)
+
+
+
+
+def side mirrors():
+    tom. calculate_triangle_area(base, height):
+  """Calculates the area of a triangle."""
+  if base <= 0 or height <= 0:
+    return "Error: Base and height must be positive numbers."
+  
+  area = 0.5 * base * height
+  return area
+
+
+def rims():
+        tom. calculate_triangle_area(base, height):
+  """Calculates the area of a triangle."""
+  if base <= 0 or height <= 0:
+    return "Error: Base and height must be positive numbers."
+  
+  area = 0.5 * base * height
+  return area
