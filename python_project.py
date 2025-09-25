@@ -36,7 +36,6 @@ def rear():
     move(-20,-100)
     tom.fd(100)
     move(-100,-100)
-
     rear()
     move(-100,100)
     tyre()
@@ -73,18 +72,18 @@ def spolier():
     tom.right(90)
     tom.forward(200)
     
-def window():
-tom.forward(100)
-tom.right(90)
-tom.forward(20)
-tom.right(90)
-tom.forward(100)
-tom.right(90)
-tom.forward(100)
-tom.right(90)
-tom.forward(10)
-tom.right(90)
-tom.forward(100)
+    def window():
+    tom.forward(100)
+    tom.right(90)
+    tom.forward(20)
+    tom.right(90)
+    tom.forward(100)
+    tom.right(90)
+    tom.forward(100)
+    tom.right(90)
+    tom.forward(10)
+    tom.right(90)
+    tom.forward(100)
 
 
 def air vent():
@@ -130,6 +129,9 @@ def rims():
   """Calculates the area of a triangle."""
   if base <= 0 or height <= 0:
     return "Error: Base and height must be positive numbers."
-  
   area = 0.5 * base * height
   return area
+
+
+
+
